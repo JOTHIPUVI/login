@@ -1,0 +1,89 @@
+* {
+    margin:0;
+    padding:0;}
+
+body {
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana,  sans-serif;
+    background: linear-gradient(135deg,#ce04a2 10%,#0f1ae4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(253, 0, 0);
+    background-image: url(panda\ kutty.jpeg)
+    
+
+}
+ .login-container, .signup-container {
+    background-color: rgb(224, 179, 187);
+    padding:30px;
+    border-radius: 12px;
+    box-shadow: 0 10px black;
+    width:350px;
+    text-align: center;
+
+ }
+ h2{
+    margin-bottom: 25px;
+    font-size: 26px;
+    color: aqua;
+    border-bottom: 2px solid green;
+    padding-bottom: 10px;
+ }
+.input-group{
+    margin-bottom: 20px;
+    text-align: left;
+}
+label {
+    display:block;
+    margin-bottom: 8px;
+    font-size:14px;
+    color:orangered; 
+}
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #010102;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: aliceblue;
+    transition: all 0.3s ease;
+}
+input:focus{
+    border-color:#4CAF50;
+    background-color: crimson;
+    box-shadow: #0d18e9;
+    outline: none;
+} 
+button{
+    width: 100%;
+    padding: 14px;
+    background-color: rgb(240, 85, 7);
+    border: none;
+    border-radius: 8px;
+    color: antiquewhite;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease,transform 0.1s ease;
+}
+button:hover {
+    background-color: cornflowerblue;
+}
+button:active {
+    transform: scale(0.98);
+}
+.signup-link, .login-link{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #39b398;
+}
+.signup-link a,.login-link a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+.signup-link a:hover, .login-link a:hover {
+    text-decoration: underlines;
+}
